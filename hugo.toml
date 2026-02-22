@@ -40,6 +40,6 @@ title = "Andrea Abbruzzese"
     dates = "2019–2022"
 
   [[params.projects]]
-    name = "nome-progetto"
-    url = "https://github.com/2msloc/nome-progetto"
-    desc = "description tbd"
+    name = "spp"
+    url = "https://github.com/2msloc/spp"
+    desc = "Photography portfolio for Sofia Pagani — Hugo, HTML, CSS, JavaScript"
