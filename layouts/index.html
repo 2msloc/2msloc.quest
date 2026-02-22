@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="header-row">
+  <div>
+    <h1>{{ .Site.Params.name }}</h1>
+    <div class="meta">{{ .Site.Params.role }}</div>
+  </div>
+  <a href="/blog/" class="blog-link">blog →</a>
+</div>
+
+<h2>Technologies</h2>
+<ul>
+  {{ range .Site.Params.technologies }}
+  <li>{{ delimit .items ", " }}</li>
+  {{ end }}
+</ul>
+
+<h2>Projects</h2>
+<ul>
+  {{ range .Site.Params.projects }}
+  <li><a href="{{ .url }}">{{ .name }}</a> — {{ .desc }}</li>
+  {{ end }}
+</ul>
+
+<h2>Experience</h2>
+<ul>
+  {{ range .Site.Params.experience }}
+  <li>{{ .name }} <span class="post-date">— {{ .dates }}</span></li>
+  {{ end }}
+</ul>
+
+{{ end }}

@@ -1,0 +1,45 @@
+baseURL = "https://2msloc.quest/"
+languageCode = "en"
+title = "Andrea Abbruzzese"
+
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+
+[params]
+  description = "Andrea Abbruzzese — DevOps Engineer"
+  name = "Andrea Abbruzzese"
+  role = "DevOps Engineer"
+  email = "andrea[at]2msloc.quest"
+  github = "2msloc"
+  linkedin = "2msloc"
+
+  [[params.technologies]]
+    items = ["Go", "C", "POSIX Shell", "C#/.NET"]
+
+  [[params.technologies]]
+    items = ["Terraform", "Ansible", "Docker", "Kubernetes"]
+
+  [[params.technologies]]
+    items = ["PostgreSQL", "Redis", "Grafana"]
+
+  [[params.technologies]]
+    items = ["Linux", "HTMX"]
+
+  [[params.experience]]
+    name = "Avid Technology"
+    dates = "2023–2026"
+
+  [[params.experience]]
+    name = "SI.net Servizi Informatici"
+    dates = "2019–2022"
+
+  [[params.projects]]
+    name = "nome-progetto"
+    url = "https://github.com/2msloc/nome-progetto"
+    desc = "description tbd"
