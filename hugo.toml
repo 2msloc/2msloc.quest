@@ -40,6 +40,6 @@ title = "Andrea Abbruzzese"
     dates = "2019–2022"
 
   [[params.projects]]
-    name = "spp"
-    url = "https://github.com/2msloc/spp"
+    name = "sofiapagani.it"
+    url = "https://sofiapagani.it"
     desc = "Photography portfolio for Sofia Pagani — Hugo, HTML, CSS, JavaScript"
