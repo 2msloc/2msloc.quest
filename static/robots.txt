@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://2msloc.quest/sitemap.xml
