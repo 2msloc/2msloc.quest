@@ -2,9 +2,9 @@
 title = "Andrea Abbruzzese"
 
 [[projects]]
-name = "nome progetto"
+name = "hypervirt"
 url  = "https://github.com/2msloc/hypervirt"
-desc = "libvirt client written in go."
+desc = "Client for libvirt. Written in Go."
 
 [[rocks]]
 name = "suckless.org"
