@@ -2,14 +2,14 @@
 title = "Andrea Abbruzzese"
 
 [[rocks]]
-name = "nome progetto"
-url  = "https://github.com/2msloc"
-desc = "breve descrizione"
+name = "suckless.org"
+url  = "https://suckless.org/"
+desc = "software that sucks less"
 
 [[rocks]]
-name = "altro progetto"
-url  = "https://github.com/2msloc"
-desc = "altra descrizione"
+name = "redis"
+url  = "https://github.com/redis/redis"
+desc = ""
 +++
 
 Scrivo codice, uso Linux, leggo sorgenti.
