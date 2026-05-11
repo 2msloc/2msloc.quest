@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: deploy
 
 on:
   push:
@@ -22,13 +22,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: |
-          mkdir _site
-          cp index.html favicon.svg robots.txt CNAME _site/
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+
+      - name: build
+        run: hugo --minify
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: ./public
 
       - id: deployment
         uses: actions/deploy-pages@v4

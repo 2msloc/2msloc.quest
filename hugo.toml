@@ -1,0 +1,24 @@
+baseURL      = "https://2msloc.quest/"
+languageCode = "it"
+title        = "2msloc.quest"
+
+disableKinds = ["taxonomy", "term"]
+
+[markup.highlight]
+  noClasses = true
+  style     = "xcode"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[params]
+  author   = "andrea abbruzzese (2msloc.quest)"
+  github   = "https://github.com/2msloc"
+  linkedin = "https://linkedin.com/in/2msloc"
+
+  accent = "#4a7ad4"
+  bg     = "#ffffff"
+  fg     = "#18181b"
+  muted  = "#71717a"
+  border = "#e4e4e7"
+  code   = "#f4f4f5"
