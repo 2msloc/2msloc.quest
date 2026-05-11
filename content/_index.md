@@ -7,9 +7,9 @@ url  = "https://suckless.org/"
 desc = "software that sucks less"
 
 [[rocks]]
-name = "redis"
-url  = "https://github.com/redis/redis"
-desc = ""
+name = "herbe"
+url  = "https://github.com/dudik/herbe"
+desc = "Daemon-less notifications without D-Bus. Minimal and lightweight."
 +++
 
 Scrivo codice, uso Linux, leggo sorgenti.
