@@ -57,6 +57,11 @@ time.post-meta        { font-size: 0.82rem; color: var(--muted); display: block;
 .post-content figure img   { margin: 0; }
 .post-content figcaption { font-size: 0.82rem; color: var(--muted); margin-top: 0.4rem; text-align: center; }
 
+.rocks                { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+.rocks-title          { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.6rem; letter-spacing: 0.06em; }
+.rocks-item           { padding: 0.2rem 0; font-size: 0.95rem; font-family: "Geist Mono", monospace; }
+.rocks-desc           { color: var(--muted); font-size: 0.88rem; }
+
 .post-nav             { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem; font-size: 0.82rem; }
 .post-nav a           { color: var(--muted); }
 .post-nav a:hover     { color: var(--fg); }

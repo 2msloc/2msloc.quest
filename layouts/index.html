@@ -2,4 +2,14 @@
 <div class="post-content">
   {{ .Content }}
 </div>
+{{ with .Params.rocks }}
+<section class="rocks">
+  <p class="rocks-title">rocks</p>
+  {{ range . }}
+  <div class="rocks-item">
+    <a href="{{ .url }}">{{ .name }}</a>{{ with .desc }} <span class="rocks-desc">— {{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}
 {{ end }}

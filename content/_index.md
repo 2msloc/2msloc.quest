@@ -1,5 +1,15 @@
 +++
 title = "Andrea Abbruzzese"
+
+[[rocks]]
+name = "nome progetto"
+url  = "https://github.com/2msloc"
+desc = "breve descrizione"
+
+[[rocks]]
+name = "altro progetto"
+url  = "https://github.com/2msloc"
+desc = "altra descrizione"
 +++
 
 Scrivo codice, uso Linux, leggo sorgenti.
